@@ -419,7 +419,7 @@ section{
 
 .portfolio .box-container .box .content h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color:var(--green);
     text-transform: uppercase;
     transform: translateY(-5rem);
     opacity: 0;
@@ -427,6 +427,19 @@ section{
 }
 
 .portfolio .box-container .box:hover .content h3{
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.portfolio .box-container .box .content p{
+    font-size: 1rem;
+    color:var(--black);
+    transform: translateY(-5rem);
+    opacity: 0;
+    transition-delay: .3s;
+}
+
+.portfolio .box-container .box:hover .content p{
     transform: translateY(0rem);
     opacity: 1;
 }
