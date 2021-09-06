@@ -129,6 +129,14 @@ section{
     color: var(--green);
 }
 
+.header .navbar a.active{
+        background: var(--green);
+        color: white;
+}
+.header .navbar a.active:hover{
+    box-shadow: none;
+    
+}
 #menu-btn{
     position: fixed;
     top:1.5rem; left: 2rem;
