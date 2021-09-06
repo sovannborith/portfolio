@@ -27,7 +27,6 @@ window.onscroll = () =>{
 
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
 const sections = document.querySelectorAll("section[id]");
-
 //window.addEventListener("scroll", scrollActive);
 
 function scrollToActive() {
@@ -36,7 +35,7 @@ function scrollToActive() {
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
-    sectionId = current.getAttribute("id");
+    let sectionId = current.getAttribute("id");
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
