@@ -9,9 +9,11 @@ menu.onclick = () =>{
 /* left menu*/
 let navLinks = document.querySelectorAll('.navbar a');
 navLinks.forEach((n) => n.addEventListener("click", (e)=>{
-    let links =document.querySelectorAll(".navbar a");
+    /* let links =document.querySelectorAll(".navbar a");
     links.forEach((n) => n.classList.remove("active"));
-    n.classList.add("active");
+    n.classList.add("active"); */
+
+    n.classList.remove("active");
 }))
 
 
