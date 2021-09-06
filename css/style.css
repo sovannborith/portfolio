@@ -305,27 +305,51 @@ section{
 }
 
 .about .row .progress .bar-1-1 span{
-    width: 90%;
-}
-
-.about .row .progress .bar-1-2 span{
-    width: 75%;
-}
-
-.about .row .progress .bar-1-3 span{
-    width: 80%;
-}
-
-.about .row .progress .bar-2-1 span{
     width: 95%;
 }
 
+.about .row .progress .bar-1-2 span{
+    width: 80%;
+}
+
+.about .row .progress .bar-1-3 span{
+    width: 85%;
+}
+
+.about .row .progress .bar-2-1 span{
+    width: 90%;
+}
+
 .about .row .progress .bar-2-2 span{
-    width: 89%;
+    width: 70%;
 }
 
 .about .row .progress .bar-2-3 span{
-    width: 65%;
+    width: 80%;
+}
+
+.about .row .progress .bar-3-1 span{
+    width: 60%;
+}
+
+.about .row .progress .bar-3-2 span{
+    width: 70%;
+}
+
+.about .row .progress .bar-3-3 span{
+    width: 50%;
+}
+
+.about .row .progress .bar-4-1 span{
+    width: 80%;
+}
+
+.about .row .progress .bar-4-2 span{
+    width: 90%;
+}
+
+.about .row .progress .bar-4-3 span{
+    width: 80%;
 }
 
 .services .box-container{
